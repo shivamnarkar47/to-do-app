@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
+body{
+  background-color: #00a896;
+  font-size: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+.app-title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 41%;
+  font-weight: 900;
+  font-family: 'Sansita Swashed', cursive;
+  top: 20%;
+  font-size: 50px;
+  color: #000000;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container{
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  padding: 20px;
+  height: 300px;
+  text-decoration: none;
 }
-
-.App-link {
-  color: #61dafb;
+.input-text{
+  margin-top: 5px;
+  padding:10px;
+  border-radius: 5px;
+  box-shadow: none;
+  width: 150px;
+  border: none;
+  margin-right: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-btn{
+  background-color: purple;
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.input-text:focus{
+  outline-style: none;
+}
+.input-text:hover{
+  outline-style: none;
+}
+.add-btn:hover{
+  outline-style: none;
+}
+.add-btn:focus{
+  outline-style: none;
+}
+.list{
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  position: absolute;
+  text-decoration: none;
+  top: 30%;
+  left: -20%;
+  width: 500px;
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px;
+  padding-left: 15px;
+  
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: 400;
+  width: 500px;
+  margin-top: 10px;
+  font-family:'Poppins', sans-serif ;
+  padding: 0;
+  
+}
+li> .btn{
+  color: whitesmoke;
+  background-color: #ff595e;
+  text-transform: uppercase;
+  border: whitesmoke;
+  margin-left: 160px;
+  padding: 10px;
+  box-shadow: none;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  width: 80px;
+}
+.btn:hover{
+  outline-style: none;
+}
+.btn:focus{
+  outline-style: none;
 }
